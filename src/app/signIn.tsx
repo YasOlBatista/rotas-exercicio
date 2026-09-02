@@ -2,22 +2,11 @@ import {View, TouchableOpacity, Text, StyleSheet} from "react-native";
 import { router } from "expo-router";
 
 export default function signIn() {
-    function back(){
-        router.back();
-    }
+    
 
     return (
         <View style={styles.container}>
-        <TouchableOpacity 
-            style={styles.button} 
-            activeOpacity={0.7} 
-            onPress={back}
-        >
-            <Text style={styles.button} onPress={back}>
-                Voltar
-            </Text>
-
-        </TouchableOpacity>
+        
         </View>
     )
 }

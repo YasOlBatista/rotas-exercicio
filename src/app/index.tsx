@@ -4,7 +4,7 @@ import { router } from "expo-router";
 export default function Index() {
 
     function signIn() {
-        router.navigate("/signIn");
+        router.navigate('/(tabs)');
     }
 
     return (
